@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "nugget"
+version = "0.1.0"
+description = "Async Vinted watchlist scanner — fan-out search, seller trust scoring, nugget detection"
+requires-python = ">=3.10"
+dependencies = ["curl_cffi>=0.7"]
+
+[project.urls]
+Repository = "https://github.com/L0NDONER/nugget"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nugget*"]
+
+[tool.setuptools.package-data]
+nugget = ["watchlist.json"]

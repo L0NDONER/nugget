@@ -1,0 +1,16 @@
+[
+  {"name": "Rab",                   "max_price": 35, "size_label": "XL"},
+  {"name": "Champion Reverse Weave","max_price": 25, "size_label": "XL"},
+  {"name": "Napapijri",             "max_price": 35, "size_label": "XL"},
+  {"name": "Penfield",              "max_price": 20, "size_label": "XL"},
+  {"name": "Patagonia",             "max_price": 35, "size_label": "XL"},
+  {"name": "MKI Miyuki Zoku",       "max_price": 10, "size_label": "XL"},
+  {"name": "Barbour",               "max_price": 40, "size_label": "XL"},
+  {"name": "Arc'teryx xl",           "max_price": 30, "size_label": "XL"},
+  {"name": "Reiss",                 "max_price": 20, "size_label": "XL"},
+  {"name": "Boss Orange",           "max_price": 25, "size_label": "XL"},
+  {"name": "Gant",                  "max_price": 20, "size_label": "XL"},
+  {"name": "Abercrombie & Fitch",   "max_price": 12, "size_label": "XL"},
+  {"name": "Fred Perry",            "max_price": 25, "size_label": "XL"},
+  {"name": "Haglofs",               "max_price": 35, "size_label": "XL"}
+]
