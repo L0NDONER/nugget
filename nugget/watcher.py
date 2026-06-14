@@ -47,7 +47,7 @@ def _load_brands() -> List[BrandConfig]:
 BRANDS: List[BrandConfig] = _load_brands()
 
 # Set ACCESS_TOKEN in env, or write to token.txt next to this file.
-ACCESS_TOKEN: str = os.getenv("ACCESS_TOKEN", "")
+ACCESS_TOKEN: str = os.getenv("ACCESS_TOKEN") or os.getenv("SITE_TOKEN", "")
 
 _TOKEN_FILE = os.path.join(os.path.dirname(__file__), "token.txt")
 _token_file_mtime: float = 0.0
